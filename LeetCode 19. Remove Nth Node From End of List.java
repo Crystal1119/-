@@ -39,7 +39,7 @@ class Solution {
             mid --;
             first = first.next;
         }
-        first.next = first.next.next;
+        first.next = first.next.next; 
         return newHead.next;
     }
 }
